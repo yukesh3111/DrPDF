@@ -21,7 +21,8 @@ Ensure you have the following installed:
 
 ### Install Dependencies
 ```sh
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Configuration
 Update `app.config` in `app.py` with your database credentials:

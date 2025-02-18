@@ -15,7 +15,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app,resources={r"/*": {"origins": "*"}})
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:yukesh2003@localhost/drpdf'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:[root_name]@localhost/drpdf'
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.drpdf'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key='!@#$%^&*!@#$%^&*()WERTYUIOghjkhgfxcvbnmjytd'

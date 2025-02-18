@@ -21,8 +21,7 @@ Ensure you have the following installed:
 
 ### Install Dependencies
 ```sh
-pip install flask flask-cors pymongo gridfs sqlalchemy sentence-transformers faiss-cpu keybert pymupdf mysql-connector-python
-```
+pip install -r requirements.txt```
 
 ## Configuration
 Update `app.config` in `app.py` with your database credentials:

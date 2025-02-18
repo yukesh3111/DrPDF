@@ -1,0 +1,10 @@
+Flask
+PyMuPDF
+sentence-transformers
+faiss-cpu
+pymongo
+keybert
+flask-cors
+Flask-SQLAlchemy
+SQLAlchemy
+mysql-connector-python
